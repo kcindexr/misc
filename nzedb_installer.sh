@@ -285,8 +285,8 @@ sed -i -e 's/max_execution_time.*$/max_execution_time = 180/' /etc/php5/cli/php.
 sed -i -e 's/max_execution_time.*$/max_execution_time = 180/' /etc/php5/fpm/php.ini
 sed -i -e 's/memory_limit.*$/memory_limit = -1/' /etc/php5/cli/php.ini
 sed -i -e 's/memory_limit.*$/memory_limit = -1/' /etc/php5/fpm/php.ini
-sed -i -e 's/[;?]date.timezone.*$/date.timezone = America\/New_York/' /etc/php5/cli/php.ini
-sed -i -e 's/[;?]date.timezone.*$/date.timezone = America\/New_York/' /etc/php5/fpm/php.ini
+sed -i -e 's/[;?]date.timezone.*$/date.timezone = America\/Chicago/' /etc/php5/cli/php.ini
+sed -i -e 's/[;?]date.timezone.*$/date.timezone = America\/Chicago/' /etc/php5/fpm/php.ini
 
 mkdir -p /var/www/nZEDb
 chmod 777 /var/www/nZEDb
